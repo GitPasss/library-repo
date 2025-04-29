@@ -1,3 +1,3 @@
-def greet(Map config = [:]) {
+def call(Map config = [:]) {
  sh "echo Hello, ${config.name}!"
 }
